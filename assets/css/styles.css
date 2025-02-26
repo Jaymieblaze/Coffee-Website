@@ -741,12 +741,10 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    width: 0.6rem;
     background-color: hsl(166, 20%, 40%);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    width: 0.6rem;
     background-color: hsl(166, 20%, 50%);
 }
 
@@ -773,3 +771,64 @@ img {
 .show-scroll {
     bottom: 3rem;
 }
+
+
+/* BREAKPOINTS */
+/* For Small Devices */
+@media screen and (max-width: 330px){
+    .container {
+        margin-inline: 1rem;
+    }
+    .section__title {
+        font-size: 2rem;
+    }
+    .home__title {
+        font-size: 3.5rem;
+    }
+    .home__shape {
+        width: 250px;
+        height: 250px;
+    }
+    .home__coffee {
+        width: 145px;
+    }
+    .home__splash {
+        width: 310px;
+    }
+    .home__sticker{
+        top: 25rem;
+    }
+
+    .about__shape {
+        width: 250px;
+        height: 250px;
+    }
+    .about__shape {
+        width: 250px;
+        height: 250px;
+    }
+    .about__coffee {
+        width: 240px;
+    }
+
+    .products__container{
+        grid-template-columns: 160px;
+        justify-content: center;
+    }
+
+    .contact__shape {
+        width: 250px;
+        height: 250px;
+    }
+    .contact__delivery {
+        width: 200px;
+    }
+}
+
+/* For Medium Devices */
+
+
+/* For Large Devices */
+
+
+/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
