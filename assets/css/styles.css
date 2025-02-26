@@ -212,6 +212,12 @@ img {
     box-shadow: 0 4px 16px hsla(166, 85%, 8%, .3);
 }
 
+/* Active Link */
+.active-link {
+    color: var(--first-color);
+}
+
+
 /* HOME */
 .home__container {
     position: relative;
