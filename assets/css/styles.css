@@ -728,4 +728,19 @@ img {
     font-size: var(--small-font-size);
 }
 
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: hsl(166, 20%, 30%);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0.6rem;
+    background-color: hsl(166, 20%, 40%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    width: 0.6rem;
+    background-color: hsl(166, 20%, 50%);
+}
 
